@@ -1,9 +1,7 @@
 <template>
-    <card class="flex flex-col items-center justify-center p-1">
-        <div class="mb-1">
-            <button class="text-center btn btn-primary btn-default" @click="reloadResources">{{ __('Reload Resources') }}</button>
+        <div>
+            <button class="text-center btn btn-primary btn-default" @click="reloadResources">{{ __('Refresh') }}</button>
         </div>
-    </card>
 </template>
 
 <script>
